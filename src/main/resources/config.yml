@@ -1,0 +1,13 @@
+prefix: "&7[&3Siz&6Craft&7]"
+
+item:
+  material: stick
+  amount: 10
+  name: "een stok"
+  lore:
+    - "dit is regel 1"
+    - "dit is regel 2"
+  enchants:
+    - "SHARPNESS: 5"
+    - "UNBREAKING: 3"
+  glow: true
