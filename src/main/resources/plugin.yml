@@ -1,7 +1,7 @@
-name: SizCraftCore
+name: SizCraft-Core
 version: '${project.version}'
 main: com.sizcraft.sizcraftcore.SizCraftCore
 api-version: 1.19
 authors: [ SizGen ]
-description: The core of the sizcraft network
+description: The core of the sizcraft network!
 website: www.sizcraft.nl

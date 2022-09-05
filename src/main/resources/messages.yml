@@ -1,0 +1,5 @@
+gamemode:
+  player: # Use {GAMEMODE} for the gamemode, Use {PLAYER} for the player
+    - "{PLAYER}'s game mode has been changed to {GAMEMODE}"
+  usage:
+    - "&cUsage: /gamemode [gamemode] [player]"

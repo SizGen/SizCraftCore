@@ -12,6 +12,7 @@ import org.jetbrains.annotations.NotNull;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
+import java.util.List;
 import java.util.logging.Logger;
 
 public abstract class CustomFile {
@@ -224,6 +225,11 @@ public abstract class CustomFile {
 
     public ConfigurationSection getConfigurationSection(String path) {
         ConfigurationSection a = fileConfiguration().getConfigurationSection(path);
+        return a;
+    }
+
+    public List<String> getStringList(String path) {
+        List<String> a = fileConfiguration().getStringList(path);
         return a;
     }
 

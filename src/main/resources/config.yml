@@ -1,13 +1,11 @@
-prefix: "&7[&3Siz&6Craft&7]"
+# You can change the prefix that is in front of every message send by the plugin in the chat
+prefix: "&7[&3Siz&6Craft&7] &b"
 
-item:
-  material: stick
-  amount: 10
-  name: "een stok"
-  lore:
-    - "dit is regel 1"
-    - "dit is regel 2"
-  enchants:
-    - "SHARPNESS: 5"
-    - "UNBREAKING: 3"
-  glow: true
+# You can set a custom join message here, set to "none" to disable.
+# You may use color codes, use {PLAYER} for the players name
+custom-join-message: "none"
+custom-quit-message: "none"
+
+# You can change the chat format, use {GROUP} for the players group
+# use {DISPLAYNAME} for the players display name, use {MESSAGE} for the message
+chat-format: "{GROUP} {DISPLAYNAME}: {MESSAGE}"

@@ -1,0 +1,23 @@
+# Item Properties:
+#
+#   > Material
+#     material: diamond
+#
+#   > Amount
+#     amount: 10
+#
+#   > Name
+#     name: "My Item"
+#
+#   > Lore
+#     lore:
+#       - "This is line 1"
+#       - "This is line 2"
+#
+#   > Enchantments
+#     enchantments:
+#       - "SHARPNESS 5"
+#       - "UNBREAKING 1"
+#
+#   > Glow
+#     glow: true
